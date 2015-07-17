@@ -5,16 +5,21 @@ body {
 }
 
 body {
-	font-family: "Myriad Pro";
+	font-family: 'Roboto', sans-serif;
 	color: #353b46;
 }
 
 h1 {
-	font-family: "Myriad Web Pro";
+	font-weight: 900;
+	margin-bottom: 2em;
 }
 
 h1 span {
-	font-family: "Myriad Pro";
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 300;
 }
 
 .cv {
@@ -32,7 +37,7 @@ h1 span {
 }
 
 .cv-years {
-	font-family: "Myriad Web Pro";
+	font-weight: 900;
 }
 
 .cv-experience {
@@ -75,7 +80,7 @@ h1 span {
 }
 
 .portfolio-project-title {
-	font-family: "Myriad Web Pro";
+	font-weight: 900;
 }
 
 .portfolio-project {
@@ -109,11 +114,12 @@ h1 span {
 .portfolio-project-title {
 	font-size: 2em;
 	margin: 0;
+	font-weight: 300;
 }
 
 .portfolio-project-secondary-title {
 	font-size: 1.2em;
-	font-weight: normal;
+	font-weight: 900;
 	margin: 0;
 }
 
